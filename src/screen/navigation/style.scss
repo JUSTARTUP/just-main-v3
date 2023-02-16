@@ -1,0 +1,32 @@
+body{
+  background: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+}
+
+$header-height: 3.7rem;
+
+.header{
+  height: $header-height;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1;
+}
+
+.header__menu{
+  display: flex;
+  align-items: center;
+}
+
+.header__padding{
+  height: $header-height;
+}
