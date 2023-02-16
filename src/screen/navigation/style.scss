@@ -1,5 +1,5 @@
 body{
-  background: #000;
+  background: #fff;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -29,4 +29,10 @@ $header-height: 3.7rem;
 
 .header__padding{
   height: $header-height;
+}
+
+
+.move-button{
+  cursor: pointer;
+  margin-left: 1rem;
 }
